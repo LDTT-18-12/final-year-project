@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staric</title>
+</head>
+<body>
+    <h1> Print Staric in line:</h1>
+</body>
+</html>
+<script>
+    
+    for(let i=1; i<=4; i++){
+        for(let s=1; s<=4-i; s++){
+            document.write("&nbsp;&nbsp;")
+        }
+        for(j=1; j<=i; j++){
+            document.write("*")
+        }
+        for(r=1; r<i; r++){
+            document.write("*")
+        }
+        document.write("<br>")
+    }
+    for(let i=4; i>=1; i--){
+        for(let s=1; s<=4-i; s++){
+            document.write("&nbsp;&nbsp;")
+        }
+        for(j=i; j>=1; j--){
+            document.write("*")
+        }
+        for(r=1; r<i; r++){
+            document.write("*")
+        }
+        document.write("<br>")
+    }
+
+</script>

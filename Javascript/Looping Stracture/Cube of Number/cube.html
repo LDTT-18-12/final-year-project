@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube of number </title>
+</head>
+<body bgcolor="pink">
+    <h1>Cube of 5 Numbers and with addition : </h1>
+<h2 id="num"></h2>
+</body>
+</html>
+<script>
+    let n= document.getElementById("num").value;
+    n=5
+    
+        for(let i=1; i<=n; i++){
+           let cube= i*i*i;
+           let sum = i+i+i;
+          
+           document.write("Number is: " + i + "  " + "and the cube is:" +cube+ "<br>")
+          
+           document.write("Number is: " + i + "  " + "and the sum is:" +sum+ "<br>")
+           document.write("<br>") 
+        }
+</script>

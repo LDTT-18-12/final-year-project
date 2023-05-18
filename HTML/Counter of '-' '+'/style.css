@@ -1,0 +1,60 @@
+body{
+    background: pink;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+.center {
+    margin: auto;
+    width:20%;
+}
+.box {
+    font-size: 75px;
+    font-weight: bold;
+    color: blue;
+    background: #f5d7d7;
+    padding: 30px;
+    border: 2px solid #080808;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+.btn-add:hover {
+   background-color: #346b3b;
+   color: white;
+}
+
+
+.btn-subtract:hover {
+    background-color: #346b3b;
+   color: white;
+}
+/* .btn:active {
+    box-shadow: px 2px 22px 1px rgba(0, 0, 0, 0.24);
+} */
+
+.btn {
+    padding: 2px 15px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-add {
+    background: greenyellow;
+    flex: left;
+    border: 2px solid #346b3b;
+}
+
+.btn-subtract {
+    background: greenyellow;
+    flex: right;
+    border: 2px solid #346b3b;
+}

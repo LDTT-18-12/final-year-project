@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Number </title>
+</head>
+<body bgcolor="pink">
+    <h1>Sum of  1st 10 Natural Number: </h1>
+<h2 id="num"></h2>
+</body>
+</html>
+<script>
+    let n= document.getElementById("num").value;
+    n=10
+    var sum=0, i;
+    document.write("The first 10 natural number")
+        for(i=1; i<=n; i++){
+           sum= sum+i;
+          
+           document.write(+i+"<br>")
+        }
+        
+            document.write("The sum is:"+"<br>"+sum)
+</script>

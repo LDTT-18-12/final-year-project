@@ -1,0 +1,105 @@
+@font-face {
+    font-family: noori;
+    src: url("../font/Jameel\ Noori\ Nastaleeq\ Kasheeda.ttf");
+}
+@font-face {
+    font-family: pakistan;
+    src: url("../font/Pakistan.ttf");
+}
+.main{
+    width: 100%;
+    height: 330px;
+}
+.page{
+    width: 100%;
+    height: 330px;
+    background-color: yellowgreen;
+}
+.header{
+    background-image: url("../png/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    height: 330px;
+    width: 100%;
+}
+.top-bar{
+    background-color: #318001;
+    width: 100%;
+    height: 50px;
+}
+.left{
+    text-align: left;
+    color: #EDEE2E;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: noori;
+}
+.center{
+    text-align: center;
+    color: #EDEE2E;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: noori;
+}
+.right{
+    text-align: right;
+    color: yellow;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: noori;
+}
+.navbar{
+    background-color: #DFA305;
+    width: 100%;
+    height: 10px;
+}
+.lahore{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    margin-left: 470px;
+    font-family: noori;
+}
+.daily{
+    text-align: center;
+    color: white;
+    margin-left: -150px;
+    margin-top: -69px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: noori;
+    line-height: 16px;
+}
+.roznama{
+    text-align: right;
+    color: white;
+    margin-right: 570px;
+    font-family: noori;
+}
+h1{ 
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-top: -120px;
+    font-family: pakistan;
+}
+table{
+    width: 100%;
+    height: 20px;
+    background-color: #02A661;
+}
+td{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    height: 40px;
+}
+.footer{
+    background-color: #318001;
+    width: 100%;
+    height: 280px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vowels </title>
+</head>
+<body>
+    <h1>
+    <input type="text" id="letter">
+</h1>
+    <button type="button" onclick="get()"> Vowels </button>
+ </body>
+</html>
+
+<script>
+    function get(){
+       var temp = document.getElementById("letter").value;
+       console.log(temp);
+       switch (temp) {
+        case 'A':
+        case 'a':
+        case 'E':
+        case 'e':
+        case 'I':
+        case 'i':
+        case 'O':
+        case 'o':
+        case 'U':
+        case 'u':
+            {
+                document.write("Vowels")
+                console.log("vowels")
+                break;
+            }
+            default:
+                {
+                    document.write("Consonent")
+                    console.log("Consonent ")
+                }
+      }
+    }
+</script>
+

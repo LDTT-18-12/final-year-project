@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> using splice to remove element </title>
+    </head>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p> With clever parameter setting, you can use splice() to remove eleent without leaving "holes" in array:
+    <br> The first paraetor (2) define the position Where new elements should be added (slpice in) <br>
+    The second parameter (2) defines how many element should be removed.
+    <br> The rest of parammeters ("lemon", "Water-melone") define the new elements to be added.
+    <br> The splice() method returns an array with the delete items..... </p>
+
+<h4 id="access"></h4>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("access").innerHTML = fruits.splice(2, 2, "Lemon", "water-melon");
+</script>
+
+</body>
+</html>

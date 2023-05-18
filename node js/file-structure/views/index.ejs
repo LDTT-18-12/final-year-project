@@ -1,0 +1,32 @@
+
+
+    <%-include('navigation.ejs')%>
+    <img src="image/home.jpg" alt="">
+    <h1 style="color: red; text-align: center; font-weight: 900; font-size: xx-large;">Home page</h1>
+
+
+  <% if (login) { %>
+    
+    
+    <h1>
+
+        <%= name %>
+
+    </h1>
+    <%}else{%>
+    
+    <h1>sorry:</h1>
+    <%} %>
+
+
+
+
+    <% posts.forEach(function(posts){%>
+        <%=posts.name%>
+        <%})  %>
+
+  
+    
+    
+
+    <%-include('footer.ejs')%>

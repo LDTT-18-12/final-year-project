@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body bgcolor="pink">
+    <h1>Enter Number for Select the Course </h1>
+        <br> 
+      <h3>  <ul>
+            <li>
+                1. Full Stack Development </li>
+            <li> 2. mobile App Development</li>
+            <li> 3. Digital marketing </li>
+        </ul></h3>
+    
+<button type="button" onclick="Course()">Click</button>
+    <script>
+        function Course(){
+            let detail 
+        detail =prompt("Enter Number");
+       
+        if(detail==1){
+            window.open("full-stack.html")
+        }
+        else if(detail==2){
+            window.open("mobile.html")
+        }
+        else if(detail==3){
+            window.open("digital-arketing.html")
+        }
+        }
+       
+    </script>
+</body>
+</html>

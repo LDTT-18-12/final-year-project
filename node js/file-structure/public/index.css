@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    /* background-image: url(image/home.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(181, 218, 253);
+}
+.menu-bar
+{
+    /*background-color: #07a2fcdc;*/
+    background-color: lightskyblue;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover
+{
+border-radius: 5px;
+background-color: rgb(181, 218, 253);
+font-size: 18px;
+}
+.sub-menu-about
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-about
+{
+display: block;
+position: absolute;
+background-color: rgb(181, 218, 253);
+margin-top: 15px;
+margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-about ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-about ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-about ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-about ul li a:hover
+{
+    color: blue;
+}
+.sub-menu2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu2
+{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background: rgb(181, 218, 253);
+}
